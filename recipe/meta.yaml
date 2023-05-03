@@ -1,5 +1,5 @@
 {% set name = "urdfdom-py" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/ros/urdf_parser_py/archive/refs/tags/{{ version }}.tar.gz
-  sha256: ea7ca336bf0e7d47048769634eb3ca63fc773cbdeef8ed2a7c38230151cc3b45
+  sha256: 35252568e329c86ee352c4285ad12dbd3430c88abbe441078687cd49f843f591
   patches:
     - 77.patch
 
@@ -48,7 +48,7 @@ test:
 
 about:
   home: https://github.com/ros/urdf_parser_py
-  summary: 'Standalone URDF parser for Python.'
+  summary: Standalone URDF parser for Python.
   license: BSD-3-Clause
   license_file: LICENSE
 
