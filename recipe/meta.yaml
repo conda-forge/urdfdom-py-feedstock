@@ -8,8 +8,8 @@ package:
 source:
   url: https://github.com/ros/urdf_parser_py/archive/refs/tags/{{ version }}.tar.gz
   sha256: 35252568e329c86ee352c4285ad12dbd3430c88abbe441078687cd49f843f591
-  patches:
-    - 77.patch
+
+
 
 build:
   number: 0
