@@ -38,8 +38,8 @@ test:
   imports:
     - urdf_parser_py
   commands:
-    - pip check  # [not arm64 or not osx)]
-    - pytest ./test/ -v  # [not arm64 or not osx)]
+    - pip check  # [not arm64 or not osx]
+    - pytest ./test/ -v  # [not arm64 or not osx]
     - test -f ${PREFIX}/share/ament_index/resource_index/packages/urdfdom_py  # [not win]
     - test -f ${PREFIX}/share/urdfdom_py/package.xml  # [not win]
     - test -f ${PREFIX}/lib/urdfdom_py/display_urdf  # [not win]
