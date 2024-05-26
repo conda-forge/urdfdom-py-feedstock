@@ -12,12 +12,17 @@ source:
 
 
 build:
-  number: 3
+  number: 4
   ignore_run_exports:
     - python
     - python_abi
 
 requirements:
+  build:
+    - cross-python_{{ target_platform }}    # [build_platform != target_platform]
+    - python                                # [build_platform != target_platform]
+    - pip                                   # [build_platform != target_platform]
+    - setuptools                            # [build_platform != target_platform]
   host:
     - python
     - pip
