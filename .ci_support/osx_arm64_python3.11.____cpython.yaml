@@ -17,7 +17,7 @@ python:
 target_platform:
 - osx-arm64
 urdfdom:
-- '4.0'
+- '5.1'
 zip_keys:
 - - python
   - channel_sources
